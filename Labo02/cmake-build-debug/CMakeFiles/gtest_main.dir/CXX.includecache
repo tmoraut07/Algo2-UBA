@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/Administrator/Desktop/Algo-2/AyED2-Labo02-Definicion_clases/tests/gtest-1.8.1/gtest.h
+/mnt/c/Users/Administrator/Desktop/Algo-2/Algo2-UBA/Labo02/tests/gtest-1.8.1/gtest.h
 limits
 -
 ostream
@@ -148,19 +148,19 @@ vector
 tuple
 -
 absl/strings/string_view.h
-/mnt/c/Users/Administrator/Desktop/Algo-2/AyED2-Labo02-Definicion_clases/tests/gtest-1.8.1/absl/strings/string_view.h
+/mnt/c/Users/Administrator/Desktop/Algo-2/Algo2-UBA/Labo02/tests/gtest-1.8.1/absl/strings/string_view.h
 absl/types/optional.h
-/mnt/c/Users/Administrator/Desktop/Algo-2/AyED2-Labo02-Definicion_clases/tests/gtest-1.8.1/absl/types/optional.h
+/mnt/c/Users/Administrator/Desktop/Algo-2/Algo2-UBA/Labo02/tests/gtest-1.8.1/absl/types/optional.h
 absl/types/variant.h
-/mnt/c/Users/Administrator/Desktop/Algo-2/AyED2-Labo02-Definicion_clases/tests/gtest-1.8.1/absl/types/variant.h
+/mnt/c/Users/Administrator/Desktop/Algo-2/Algo2-UBA/Labo02/tests/gtest-1.8.1/absl/types/variant.h
 iosfwd
 -
 vector
 -
 
-/mnt/c/Users/Administrator/Desktop/Algo-2/AyED2-Labo02-Definicion_clases/tests/gtest-1.8.1/gtest_main.cc
+/mnt/c/Users/Administrator/Desktop/Algo-2/Algo2-UBA/Labo02/tests/gtest-1.8.1/gtest_main.cc
 stdio.h
 -
 gtest.h
-/mnt/c/Users/Administrator/Desktop/Algo-2/AyED2-Labo02-Definicion_clases/tests/gtest-1.8.1/gtest.h
+/mnt/c/Users/Administrator/Desktop/Algo-2/Algo2-UBA/Labo02/tests/gtest-1.8.1/gtest.h
 

@@ -50,7 +50,8 @@ void Lista::agregarAtras(const int& elem) {
     Nodo* nuevo = new Nodo(elem, nullptr, _ultimo);
     if(_primero == nullptr){
         agregarAdelante(elem);
-    }else{
+        delete nuevo;
+    }else {
         _ultimo->sig = nuevo;
         nuevo->ant = _ultimo;
         _ultimo->sig = nuevo;

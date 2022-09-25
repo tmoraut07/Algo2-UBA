@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Administrator/Desktop/Algo-2/Algo2-UBA/Labo03/src/ConexionJugador.h
+Internet.h
+/mnt/c/Users/Administrator/Desktop/Algo-2/Algo2-UBA/Labo03/src/Internet.h
+string
+-
+
+/mnt/c/Users/Administrator/Desktop/Algo-2/Algo2-UBA/Labo03/src/Internet.h
+list
+-
+utility
+-
+string
+-
+
+/mnt/c/Users/Administrator/Desktop/Algo-2/Algo2-UBA/Labo03/src/Proxy2.cpp
+Proxy2.h
+/mnt/c/Users/Administrator/Desktop/Algo-2/Algo2-UBA/Labo03/src/Proxy2.h
+
+/mnt/c/Users/Administrator/Desktop/Algo-2/Algo2-UBA/Labo03/src/Proxy2.h
+ConexionJugador.h
+/mnt/c/Users/Administrator/Desktop/Algo-2/Algo2-UBA/Labo03/src/ConexionJugador.h
+string
+-
+

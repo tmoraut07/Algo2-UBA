@@ -1,3 +1,6 @@
+//Nombre: Tobias Moraut
+//LU:1507/21
+
 #ifndef _LISTA_ALUMNOS_H_
 #define _LISTA_ALUMNOS_H_
 

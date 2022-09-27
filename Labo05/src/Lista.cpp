@@ -1,3 +1,6 @@
+//Nombre: Tobias Moraut
+//LU: 1507/21
+
 #include "Lista.h"
 
 Lista::Lista() : _primero(nullptr), _ultimo(nullptr){}

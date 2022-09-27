@@ -1,6 +1,6 @@
-/mnt/c/Users/Administrator/Desktop/Algo-2/Algo2-UBA/Labo05/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/Administrator/Desktop/Algo-2/Algo2-UBA/Labo05/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Administrator/Desktop/Algo-2/Algo2-UBA/Labo05/cmake-build-debug/CMakeFiles/correrValgrind.dir
-/mnt/c/Users/Administrator/Desktop/Algo-2/Algo2-UBA/Labo05/cmake-build-debug/CMakeFiles/correrTests.dir
-/mnt/c/Users/Administrator/Desktop/Algo-2/Algo2-UBA/Labo05/cmake-build-debug/CMakeFiles/gtest_main.dir
-/mnt/c/Users/Administrator/Desktop/Algo-2/Algo2-UBA/Labo05/cmake-build-debug/CMakeFiles/gtest.dir
+/home/clinux01/Algo2-UBA/Labo05/cmake-build-debug/CMakeFiles/gtest.dir
+/home/clinux01/Algo2-UBA/Labo05/cmake-build-debug/CMakeFiles/gtest_main.dir
+/home/clinux01/Algo2-UBA/Labo05/cmake-build-debug/CMakeFiles/correrTests.dir
+/home/clinux01/Algo2-UBA/Labo05/cmake-build-debug/CMakeFiles/correrValgrind.dir
+/home/clinux01/Algo2-UBA/Labo05/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/clinux01/Algo2-UBA/Labo05/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/AyED2-Labo08-Conjunto_sobre_ABBs/cmake-build-debug/
+cmake_ninja_workdir = /home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/cmake-build-debug/
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target gtest
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = /home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/AyED2-Labo0
 
 build cmake_object_order_depends_target_gtest: phony || CMakeFiles/gtest.dir
 
-build CMakeFiles/gtest.dir/tests/gtest-1.8.1/gtest-all.cc.o: CXX_COMPILER__gtest_Debug /home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/AyED2-Labo08-Conjunto_sobre_ABBs/tests/gtest-1.8.1/gtest-all.cc || cmake_object_order_depends_target_gtest
+build CMakeFiles/gtest.dir/tests/gtest-1.8.1/gtest-all.cc.o: CXX_COMPILER__gtest_Debug /home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/tests/gtest-1.8.1/gtest-all.cc || cmake_object_order_depends_target_gtest
   DEP_FILE = CMakeFiles/gtest.dir/tests/gtest-1.8.1/gtest-all.cc.o.d
   FLAGS = -pthread -std=gnu++11 -ggdb3 -g -g
   OBJECT_DIR = CMakeFiles/gtest.dir
@@ -83,7 +83,7 @@ build libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Debug CMakeFiles/gtest.dir/te
 
 build cmake_object_order_depends_target_gtest_main: phony || CMakeFiles/gtest_main.dir
 
-build CMakeFiles/gtest_main.dir/tests/gtest-1.8.1/gtest_main.cc.o: CXX_COMPILER__gtest_main_Debug /home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/AyED2-Labo08-Conjunto_sobre_ABBs/tests/gtest-1.8.1/gtest_main.cc || cmake_object_order_depends_target_gtest_main
+build CMakeFiles/gtest_main.dir/tests/gtest-1.8.1/gtest_main.cc.o: CXX_COMPILER__gtest_main_Debug /home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/tests/gtest-1.8.1/gtest_main.cc || cmake_object_order_depends_target_gtest_main
   DEP_FILE = CMakeFiles/gtest_main.dir/tests/gtest-1.8.1/gtest_main.cc.o.d
   FLAGS = -pthread -std=gnu++11 -ggdb3 -g -g
   OBJECT_DIR = CMakeFiles/gtest_main.dir
@@ -117,7 +117,7 @@ build libgtest_main.a: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug CMakeFiles/gt
 
 build cmake_object_order_depends_target_correrTests: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
 
-build CMakeFiles/correrTests.dir/tests/conjunto-tests.cpp.o: CXX_COMPILER__correrTests_Debug /home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/AyED2-Labo08-Conjunto_sobre_ABBs/tests/conjunto-tests.cpp || cmake_object_order_depends_target_correrTests
+build CMakeFiles/correrTests.dir/tests/conjunto-tests.cpp.o: CXX_COMPILER__correrTests_Debug /home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/tests/conjunto-tests.cpp || cmake_object_order_depends_target_correrTests
   DEP_FILE = CMakeFiles/correrTests.dir/tests/conjunto-tests.cpp.o.d
   FLAGS = -pthread -std=gnu++11 -ggdb3 -g -g
   OBJECT_DIR = CMakeFiles/correrTests.dir
@@ -154,7 +154,7 @@ build correrValgrind: phony CMakeFiles/correrValgrind correrTests
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/AyED2-Labo08-Conjunto_sobre_ABBs/cmake-build-debug && /snap/clion/209/bin/cmake/linux/bin/ccmake -S/home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/AyED2-Labo08-Conjunto_sobre_ABBs -B/home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/AyED2-Labo08-Conjunto_sobre_ABBs/cmake-build-debug
+  COMMAND = cd /home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/cmake-build-debug && /snap/clion/209/bin/cmake/linux/bin/ccmake -S/home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB -B/home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -166,7 +166,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/AyED2-Labo08-Conjunto_sobre_ABBs/cmake-build-debug && /snap/clion/209/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/AyED2-Labo08-Conjunto_sobre_ABBs -B/home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/AyED2-Labo08-Conjunto_sobre_ABBs/cmake-build-debug
+  COMMAND = cd /home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/cmake-build-debug && /snap/clion/209/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB -B/home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -178,7 +178,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Custom command for CMakeFiles/correrValgrind
 
 build CMakeFiles/correrValgrind | ${cmake_ninja_workdir}CMakeFiles/correrValgrind: CUSTOM_COMMAND correrTests || correrTests libgtest.a libgtest_main.a
-  COMMAND = cd /home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/AyED2-Labo08-Conjunto_sobre_ABBs/cmake-build-debug && valgrind --leak-check=full -v ./correrTests 2>&1
+  COMMAND = cd /home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/cmake-build-debug && valgrind --leak-check=full -v ./correrTests 2>&1
 
 # =============================================================================
 # Target aliases.
@@ -193,7 +193,7 @@ build gtest_main: phony libgtest_main.a
 # =============================================================================
 
 #############################################
-# Folder: /home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/AyED2-Labo08-Conjunto_sobre_ABBs/cmake-build-debug
+# Folder: /home/clinux01/Escritorio/Algo2-UBA/Labo08-ABB/cmake-build-debug
 
 build all: phony libgtest.a libgtest_main.a correrTests
 

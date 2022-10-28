@@ -29,7 +29,7 @@ bool Conjunto<T>::pertenece(const T& clave) const {
         if(clave < actual->valor){
             actual = actual->izq;
         }
-        else{
+        else {
             actual = actual->der;
         }
     }
@@ -54,64 +54,17 @@ typename Conjunto<T>::Nodo* Conjunto<T>::insertarAux(const T& clave, Nodo* a){
         a->izq = insertarAux(clave, a->izq);
         return a;
     }
-    else{
+    else if (clave > a->valor){
         a->der = insertarAux(clave, a->der);
         return a;
-    }
+    } else{
+		return a;
+	}
 }
 
 //---------------------------------------------
 
 
-/*template <class T>
-void Conjunto<T>::remover(const T& clave) {
-    Nodo* actual = _raiz;
-    Nodo* padre;
-    bool menor = false;
-
-    while(actual != nullptr && actual->valor != clave){
-        padre = actual;
-        menor = clave < actual->valor;
-        if(actual->valor < clave){
-            actual = actual->izq;
-        }
-        else{
-            actual = actual->der;
-        }
-    }
-
-    if(actual->izq == nullptr && actual->der == nullptr){  //no tiene hijes
-        if(actual == padre->der){
-            padre->der = nullptr;
-            delete actual;
-        }
-        else{
-            padre->izq = nullptr;
-            delete actual;
-        }
-    }
-
-    else{
-        if(actual->izq != nullptr && actual->der != nullptr){      //caso 2 hijos
-            T min = minAux(actual->der);
-            remover(min);
-            actual->valor = min;
-        } else {      //caso 1 solo hijo
-            Nodo* hijo = (actual->izq != nullptr) ? actual->izq : actual->der;
-            if(actual == _raiz){
-                _raiz = hijo;
-            } else{
-                if(menor){
-                    padre->izq = hijo;
-                }
-                else{
-                    padre->der = hijo;
-                } delete actual;
-            }
-        }
-    }
-
-}*/
 template <class T>
 void Conjunto<T>::remover(const T& clave) {
     bool menor = false;
@@ -137,7 +90,6 @@ void Conjunto<T>::remover(const T& clave) {
             }
         }
         delete act;
-        //contador--;
     } else{
         if (act->izq != nullptr && act->der != nullptr){
             //caso dos hijos
@@ -161,10 +113,11 @@ void Conjunto<T>::remover(const T& clave) {
                 }
             }
             delete act;
-            //contador--;cardinal
+
         }
     }
 }
+
 //-------------------------------------------------
 
 
@@ -249,7 +202,7 @@ unsigned int Conjunto<T>::_cardinal(int count, Nodo *a) const {
     if(a == nullptr) {
         return 0;
     }
-    return count + _cardinal(count,a->izq) + _cardinal(count,a->der) +1;
+    return count + _cardinal(count,a->izq) + _cardinal(count,a->der) + 1;
 }
 
 template <class T>

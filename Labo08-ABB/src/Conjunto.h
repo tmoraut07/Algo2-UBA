@@ -79,6 +79,8 @@ class Conjunto
         unsigned int _cardinal(int count, Nodo* a) const;
 
        void destructorAux(Nodo* a);
+
+	void removerAux(Nodo* actual, Nodo* nuevo, Nodo* padre);
 };
 
 template<class T>

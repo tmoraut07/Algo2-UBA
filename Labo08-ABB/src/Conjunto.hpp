@@ -64,7 +64,6 @@ typename Conjunto<T>::Nodo* Conjunto<T>::insertarAux(const T& clave, Nodo* a){
 
 //---------------------------------------------
 
-
 template <class T>
 void Conjunto<T>::remover(const T& clave) {
     bool menor = false;

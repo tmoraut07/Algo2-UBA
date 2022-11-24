@@ -141,6 +141,7 @@ void string_map<T>::erase(const string& clave) {
     }
     delete actual->definicion;
     actual->definicion = nullptr;
+
     while(actual->padre != nullptr){
         bool inutil = nodoInutil(actual);
         Nodo* par = actual->padre;
@@ -154,6 +155,8 @@ void string_map<T>::erase(const string& clave) {
         actual = par;
     }
 }
+
+
 template<typename T>
 bool string_map<T>::nodoInutil(string_map::Nodo* actual){
     Nodo* hijo;
@@ -167,7 +170,7 @@ bool string_map<T>::nodoInutil(string_map::Nodo* actual){
     if(hijos > 1){
         return false;
     }
-    return(hijos == 0 && actual->definicion == nullptr) || nodoInutil(hijo);
+    return(hijos == 0 && actual->definicion == nullptr) || (hijos == 1 && nodoInutil(hijo));
 }
 
 //---------------------------------------------------------------------

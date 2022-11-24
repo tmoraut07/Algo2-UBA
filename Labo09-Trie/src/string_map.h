@@ -84,10 +84,12 @@ private:
         vector<Nodo*> siguientes;
         T* definicion;
         Nodo* padre;
+
 		Nodo(Nodo* par) : siguientes(256, nullptr),
 				 definicion(nullptr), padre(par) { }
 		Nodo(T* def, Nodo* par) : siguientes(256, nullptr),
-					   definicion(def), padre(par) { }
+					   definicion(def),
+                       padre(par) { }
     };
     Nodo* copiar (Nodo* aCopiar, Nodo* padre);
 

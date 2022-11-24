@@ -12,6 +12,7 @@ string_map<T>::string_map(const string_map<T>& aCopiar) : string_map() {
 
 template <typename T>
 string_map<T>& string_map<T>::operator=(const string_map<T>& d) {
+    destruccion(raiz);
     Nodo* n = copiar(d.raiz, nullptr);
     int tam = d._size;
     this->raiz = n;
